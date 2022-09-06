@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="119056" started-at="2022-09-06T10:58:17Z" finished-at="2022-09-06T11:00:16Z">
+    <groups>
+      <group name="Performance,Functional">
+        <method signature="TestngGroupInclude.tc5()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="tc5" class="org.utilities.TestngGroupInclude"/>
+      </group> <!-- Performance,Functional -->
+      <group name="Regression">
+        <method signature="TestngGroupInclude.tc2()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="tc2" class="org.utilities.TestngGroupInclude"/>
+        <method signature="TestngGroupInclude.tc3()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="tc3" class="org.utilities.TestngGroupInclude"/>
+        <method signature="TestngGroupInclude.tc4()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="tc4" class="org.utilities.TestngGroupInclude"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="TestngGroupInclude.tc3()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="tc3" class="org.utilities.TestngGroupInclude"/>
+        <method signature="TestngGroupInclude.tc4()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="tc4" class="org.utilities.TestngGroupInclude"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestngGroupInclude.tc2()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="tc2" class="org.utilities.TestngGroupInclude"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="119056" started-at="2022-09-06T10:58:17Z" finished-at="2022-09-06T11:00:16Z">
+      <class name="org.utilities.TestngGroupInclude">
+        <test-method status="PASS" signature="browser()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="browser" is-config="true" duration-ms="14119" started-at="2022-09-06T10:58:17Z" finished-at="2022-09-06T10:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="start()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="start" is-config="true" duration-ms="17300" started-at="2022-09-06T10:58:31Z" finished-at="2022-09-06T10:58:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="tc2()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="tc2" duration-ms="16761" started-at="2022-09-06T10:58:49Z" finished-at="2022-09-06T10:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="end()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="end" is-config="true" duration-ms="1" started-at="2022-09-06T10:59:06Z" finished-at="2022-09-06T10:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="start" is-config="true" duration-ms="6407" started-at="2022-09-06T10:59:06Z" finished-at="2022-09-06T10:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="tc3()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="tc3" duration-ms="19667" started-at="2022-09-06T10:59:12Z" finished-at="2022-09-06T10:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="PASS" signature="end()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="end" is-config="true" duration-ms="1" started-at="2022-09-06T10:59:32Z" finished-at="2022-09-06T10:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="start" is-config="true" duration-ms="2837" started-at="2022-09-06T10:59:32Z" finished-at="2022-09-06T10:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="tc4()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="tc4" duration-ms="19001" started-at="2022-09-06T10:59:34Z" finished-at="2022-09-06T10:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="end()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="end" is-config="true" duration-ms="1" started-at="2022-09-06T10:59:53Z" finished-at="2022-09-06T10:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="start()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="start" is-config="true" duration-ms="2402" started-at="2022-09-06T10:59:53Z" finished-at="2022-09-06T10:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="tc5()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="tc5" duration-ms="17797" started-at="2022-09-06T10:59:56Z" finished-at="2022-09-06T11:00:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method status="PASS" signature="end()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="end" is-config="true" duration-ms="1" started-at="2022-09-06T11:00:14Z" finished-at="2022-09-06T11:00:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:org.utilities.TestngGroupInclude@1c62251]" name="browserclose" is-config="true" duration-ms="2690" started-at="2022-09-06T11:00:14Z" finished-at="2022-09-06T11:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- org.utilities.TestngGroupInclude -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
