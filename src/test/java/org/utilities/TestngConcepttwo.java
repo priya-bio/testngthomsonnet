@@ -1,5 +1,8 @@
 package org.utilities;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
 import java.util.Date;
 
 import org.testng.annotations.AfterClass;
@@ -21,17 +24,17 @@ public class TestngConcepttwo extends Facebbokbaseclass{
 		@Test(priority=0)
 		private void tc3() throws InterruptedException {
 			PojoTwo p=new PojoTwo();
-			fill(p.getButton(),"Buttons");
+			p.getButtons();
 			webeleclick(p.getClickbtn());
 			Thread.sleep(3000);
 			
 			
 			System.out.println("test3");
 		}
-		@Test(enabled=true,priority=-5)
+		@Test
 		private void tc2() throws InterruptedException {
 			PojoTwo p=new PojoTwo();
-			fill(p.getSearch(),"pulleys");
+			fill(p.getCadsearch(),"pulleys");
 			webeleclick(p.getClickbtn());
 			Thread.sleep(3000);
 			System.out.println("test2");

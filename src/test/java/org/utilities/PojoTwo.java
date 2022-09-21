@@ -22,22 +22,25 @@ public class PojoTwo extends Facebbokbaseclass{
 		@FindBy(xpath="//h3[text()='Buttons']")
 		private WebElement buttons;
 		
-		@FindBy(xpath="//h3[text()='Pulleys']")
-		private WebElement pulleys;
+		@FindBy(xpath="//input[@placeholder='By Product Category']")
+		private WebElement cadsearch;
 		
 		@FindBy(xpath="//button[text()='Search']")
 		private WebElement clickbtn;
+
+		public WebElement getButtons() {
+			return buttons;
+		}
+
 		
+		public WebElement getCadsearch() {
+			return cadsearch;
+		}
+
 
 		public WebElement getClickbtn() {
 			return clickbtn;
 		}
-
-		public WebElement getSearch() {
-			return buttons;
-		}
-
-		public WebElement getButton() {
-			return pulleys;
-
-}}
+		
+		
+}

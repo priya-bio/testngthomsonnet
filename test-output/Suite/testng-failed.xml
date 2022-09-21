@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.utilities.FailedAll"/>
+  </listeners>
   <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="Performance,Functional"/>
-      </run>
-    </groups>
     <classes>
-      <class name="org.utilities.TestngGroupInclude">
+      <class name="org.utilities.TestngRerun">
         <methods>
-          <include name="tc5"/>
+          <include name="browser"/>
+          <include name="start"/>
+          <include name="end"/>
+          <include name="browserclose"/>
+          <include name="tc2"/>
         </methods>
-      </class> <!-- org.utilities.TestngGroupInclude -->
+      </class> <!-- org.utilities.TestngRerun -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
